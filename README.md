@@ -15,7 +15,8 @@ This project concentrates on solving a unsolved Rubik's Cube. The program contai
 	R2 : rotate the right side of the cube 180 degrees
 	We label: Front (F), Up (U), Right (R), Down (D), Left (L), Back (B)
 	Keep in mind that you need to remember the order of the cube to solve it. Or else you might stuck at an unknown state
-4. Reference link:
-https://github.com/muodov/kociemba
-https://www.youtube.com/watch?v=WJRhB39BxWQ&list=PLrhQ-QWgC9sj_tZj-8Ho5_v5PkUwBEHqx&index=11&t=797s 
-https://www.youtube.com/watch?v=afAGtExoiLQ&list=PLrhQ-QWgC9sj_tZj-8Ho5_v5PkUwBEHqx&index=12 
+4. Reference links:
+[Kociemba Algorithm](https://ruwix.com/the-rubiks-cube/herbert-kociemba-optimal-cube-solver-cube-explorer/)
+[Kociemba Library](https://github.com/muodov/kociemba)
+[1st Github Repo for references](https://www.youtube.com/watch?v=WJRhB39BxWQ&list=PLrhQ-QWgC9sj_tZj-8Ho5_v5PkUwBEHqx&index=11&t=797s) 
+[2nd Github Repo for references](https://github.com/thatc0der/3x3x3-Rubiks-Cube-Solver)
