@@ -1,24 +1,21 @@
-# RubiksCube
-This project concentrates on solving a unsolved Rubik's Cube. The program contains OpenCV libraries and when executed will show a live video from the webcam. When a unsolved Rubik's cube is shown in front of a camera, it will scan the faces of the Rubik's cube. These instructions will be displayed along with the live video in a text format. After a successful scan the program will start to give the instructions on the moves to be made using Augmented arrow on the cube in the live video. When these moves are followed we get the end product of a solved Rubik's Cube within 30 moves.
+# RubiksCube (3x3x3)
+This project concentrates on solving a unsolved Rubik's Cube. The program contains OpenCV libraries and when executed will show a live video from the webcam. It then capture the cube, then print the answer of it, by using kociemba algorithm
 
-1.  Clone the repository
-	```
-	$ git clone https://github.com/VickneshB/RubiksCube
-	```
-2.  Create an virtual environment using
-	```
-	$ python3 -m venv  virtual environment name.
-	```
-3.  Run 
-	```
-	$ pip3 install -r requirements.txt
-	```
-4.  Run
-	```
-	$ python3 main.py
-	```
-	
-Click below for a sample VIDEO:
-
-
-[![Watch the video](https://img.youtube.com/vi/7dYNsFPmbRQ/sddefault.jpg)](https://youtu.be/7dYNsFPmbRQ)
+1. Run the file: video.py. It should open your webcam
+2.  Capturing the whole cube with the order below
+	Press 1: Capture the Front Face
+	Press 2: Capture the Up Face
+	Press 3: Capture the Right Face
+	Press 4: Capture the Down Face
+	Press 5: Capture the Left Face
+	Press 6: Capture the Back Face
+3.  After capturing the whole cube correctly, the program will print out the way to solve it. Here are some certain symbols to know
+	R :rotate the right side of the cube 90 degrees clockwise
+	R' :rotate the right side of the cube 90 degrees clockwise
+	R2 : rotate the right side of the cube 180 degrees
+	We label: Front (F), Up (U), Right (R), Down (D), Left (L), Back (B)
+	Keep in mind that you need to remember the order of the cube to solve it. Or else you might stuck at an unknown state
+4. Reference link:
+https://github.com/muodov/kociemba
+https://www.youtube.com/watch?v=WJRhB39BxWQ&list=PLrhQ-QWgC9sj_tZj-8Ho5_v5PkUwBEHqx&index=11&t=797s 
+https://www.youtube.com/watch?v=afAGtExoiLQ&list=PLrhQ-QWgC9sj_tZj-8Ho5_v5PkUwBEHqx&index=12 
